@@ -175,7 +175,9 @@ small,
 }
 
 /* image starts here */
-
+.asset {
+  width: 100%;
+}
 /* image ends here */
 
 .content-copyright {
