@@ -69,11 +69,11 @@ h5 {
 }
 
 h1 {
-  font-size: clamp(3rem, 10vw, 4.5rem);
+  font-size: clamp(3rem, 12vw, 4.5rem);
 }
 
 h2 {
-  font-size: clamp(2.5rem, 9vw, 3.5rem);
+  font-size: clamp(2.5rem, 10vw, 3.5rem);
 }
 
 h3 {
@@ -81,16 +81,16 @@ h3 {
 }
 
 h4 {
-  font-size: clamp(1.5rem, 7vw, 2.25rem);
+  font-size: clamp(1.5rem, 6vw, 2.25rem);
 }
 
 h5 {
-  font-size: clamp(1.25rem, 6vw, 1.75rem);
+  font-size: clamp(1.25rem, 4vw, 1.75rem);
 }
 
 small,
 .text_small {
-  font-size: clamp(0.875rem, 2.5vw, 1rem);
+  font-size: clamp(0.875rem, 3vw, 1rem);
 }
 
 .btn-primary {
@@ -136,16 +136,24 @@ small,
 
 /* style starts here */
 
-.section {
-  padding: 48px 24px;
-}
-
 .section-nav {
   position: sticky;
   z-index: 100;
   top: 0;
   padding: 12px 24px;
   background-color: var(--primary-bg);
+}
+
+.container-nav {
+  max-width: 1920px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section {
+  padding: 48px 24px;
 }
 
 .container {
@@ -159,83 +167,11 @@ small,
   gap: 48px;
 }
 
-.container-nav {
-  max-width: 1920px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .subheader {
   margin-bottom: 32px;
 }
 
-.submit-btn {
-  display: flex;
-  flex-direction: column;
-  margin-top: 1.5rem;
-}
-
-.btn-submit {
-  font-family: inherit;
-  padding: 1rem;
-  color: var(--primary);
-  background: var(--secondary);
-  font-size: 16px;
-  margin-bottom: 0;
-  border: none;
-  border-radius: 4rem;
-}
-
-.btn-submit:hover {
-  font-family: inherit;
-  padding: 1rem;
-  color: var(--primary);
-  background: var(--blue-dark);
-  font-size: 16px;
-  margin-bottom: 0;
-  border: none;
-  border-radius: 4rem;
-}
-
-.input-group {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 1.5rem;
-  width: 100%;
-}
-
-.chckbox {
-  display: flex;
-  gap: 12px;
-  width: 100%;
-}
-
-.marketing {
-  font-weight: 700;
-}
-
-.consent {
-  font-size: 12px;
-}
-
-label {
-  font-size: inherit;
-  margin-bottom: 4px;
-}
-
-input {
-  font-family: inherit;
-  color: var(--input-text);
-  font-size: 16px;
-  padding: 1rem;
-  width: 100%;
-  background: var(--primary);
-  border: none;
-  border-radius: 8px;
-  appearance: none;
-}
+/* image starts here */
 
 .square {
   position: relative;
@@ -253,6 +189,8 @@ input {
   width: 100%;
   height: 100%;
 }
+
+/* image ends here */
 
 .content-copyright {
   display: flex;
