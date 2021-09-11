@@ -133,6 +133,10 @@ small,
   transition: all ease-in-out 260ms;
 }
 
+.link-wrapper {
+  display: inline-block;
+}
+
 /* buttons components ends */
 
 /* style starts here */
