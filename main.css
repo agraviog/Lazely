@@ -41,7 +41,7 @@ button {
 }
 
 a {
-  display: inline-block;
+  display: flex;
   color: var(--primary);
   font-weight: 500;
   text-decoration: none;
