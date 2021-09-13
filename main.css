@@ -236,10 +236,7 @@ article {
 }
 
 .content-form {
-  padding-top: 48px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 24px;
+  padding: 48px 24px 24px 24px;
   background: var(--secondary-bg);
   border-radius: 12px;
 }
