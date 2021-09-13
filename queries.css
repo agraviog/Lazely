@@ -5,7 +5,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .section {
-    padding: 64px 32px;
+    padding: 64px 48px;
   }
 }
 
@@ -33,16 +33,19 @@
   .content-grid-end {
     justify-items: end;
   }
+
+  .content-form {
+    padding-top: 48px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1024px) {
   .section {
-    padding: 64px 48px;
-  }
-
-  .section-nav {
-    padding: 16px 32px;
+    padding: 72px 64px;
   }
 
   .section-copyright {
