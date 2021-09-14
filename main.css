@@ -63,6 +63,10 @@ button {
 }
 
 a {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   color: var(--primary);
   font-weight: 500;
@@ -177,6 +181,10 @@ small,
 .container-nav {
   max-width: 1920px;
   margin: auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -208,6 +216,10 @@ article {
 /* image starts here */
 .square {
   position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -226,6 +238,10 @@ article {
 /* image ends here */
 
 .content-copyright {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -238,11 +254,20 @@ article {
 }
 
 .btn-primary-block {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
 }
 
 .circle-border {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -253,6 +278,10 @@ article {
 }
 
 .scroll-down {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   gap: 1rem;
