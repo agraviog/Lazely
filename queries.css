@@ -72,13 +72,5 @@
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1440px) {
-  .container {
-    max-width: 1320px;
-    margin: auto;
-  }
-
-  .content-form {
-    padding: 64px 80px 64px 80px;
-  }
-} */
+@media only screen and (min-width: 1440px) {
+}
