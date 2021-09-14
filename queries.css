@@ -51,10 +51,6 @@
     padding: 72px 64px;
   }
 
-  .section-nav {
-    padding: 12px 24px;
-  }
-
   .section-copyright {
     padding: 16px 32px;
   }
@@ -68,6 +64,10 @@
 
   .content-form {
     padding: 64px 52px 52px 52px;
+  }
+
+  .section-nav {
+    padding: 16px 24px 8px 24px;
   }
 }
 
