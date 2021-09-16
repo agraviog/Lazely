@@ -1,11 +1,9 @@
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .section-nav {
     padding: 0.5rem;
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 425px) {
   .content-form {
     padding: 48px 32px 32px 32px;
@@ -22,7 +20,6 @@
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .content-grid {
     display: grid;
@@ -48,14 +45,12 @@
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1024px) {
   .section {
     padding: 72px 64px;
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .section {
     padding: 140px 48px;
@@ -70,11 +65,3 @@
     padding: 16px 24px 8px 24px;
   }
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1440px) {
-  .container {
-    max-width: 1280px;
-    margin: auto;
-  }
-} */
