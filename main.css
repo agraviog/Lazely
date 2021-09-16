@@ -197,6 +197,7 @@ small,
 .container {
   max-width: 1120px;
   margin: auto;
+  position: relative;
 }
 
 .content-grid {
@@ -206,7 +207,7 @@ small,
 }
 
 .content-wrapper {
-  max-width: 544px;
+  max-width: 480px;
 }
 
 article {
@@ -231,10 +232,18 @@ article {
   padding-bottom: 100%;
 }
 
+.asset-animate {
+  right: -24%;
+  top: -50%;
+  position: absolute;
+  z-index: -1;
+}
+
 .asset {
   position: absolute;
   height: 100%;
 }
+
 /* image ends here */
 
 .content-copyright {
@@ -250,7 +259,7 @@ article {
 }
 
 .section-copyright {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .btn-primary-block {
