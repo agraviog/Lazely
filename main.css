@@ -51,7 +51,7 @@ body {
   line-height: 1.75;
   color: var(--primary);
   min-width: 280px;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 input,
