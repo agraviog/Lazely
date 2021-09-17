@@ -231,10 +231,11 @@ article {
 }
 
 .asset-animate {
-  right: -24%;
+  right: -28%;
   top: -50%;
   position: absolute;
   z-index: -1;
+  width: 100%;
 }
 
 .asset {
