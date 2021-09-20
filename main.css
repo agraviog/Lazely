@@ -171,9 +171,9 @@ small,
   z-index: 100;
   top: 0;
   padding: 1rem;
-  background: rgba(33, 37, 41, 0);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: rgba(33, 37, 41, 0.72);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 .container-nav {
