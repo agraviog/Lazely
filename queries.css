@@ -47,13 +47,21 @@
 
 @media only screen and (min-width: 1024px) {
   .section {
-    padding: 72px 64px;
+    padding: 120px 64px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
+  .asset-animate {
+    display: block;
+  }
+
+  .square-hide {
+    display: none;
+  }
+
   .section {
-    padding: 140px 48px;
+    padding: 140px 64px;
   }
 
   .content-form {

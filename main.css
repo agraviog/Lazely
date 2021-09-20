@@ -190,6 +190,7 @@ small,
 
 .section {
   padding: 64px 24px;
+  overflow: hidden;
 }
 
 .container {
@@ -231,11 +232,12 @@ article {
 }
 
 .asset-animate {
-  right: -28%;
-  top: -50%;
+  width: 85%;
   position: absolute;
   z-index: -1;
-  width: 100%;
+  right: -18%;
+  top: -40%;
+  display: none;
 }
 
 .asset {
