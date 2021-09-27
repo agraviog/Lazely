@@ -214,21 +214,11 @@ article {
 }
 
 /* image starts here */
+
 .square {
-  position: relative;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
   justify-content: center;
-  width: 100%;
-}
-
-.square:after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
+  align-items: center;
 }
 
 .asset-animate {
@@ -241,8 +231,13 @@ article {
 }
 
 .asset {
-  position: absolute;
-  height: 100%;
+  width: 65%;
+  height: auto;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
 }
 
 /* image ends here */
