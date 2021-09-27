@@ -61,7 +61,7 @@
   }
 
   .section {
-    padding: 160px 64px;
+    padding: 140px 64px;
   }
 
   .content-form {
@@ -71,5 +71,9 @@
 
   .section-nav {
     padding: 16px 24px 8px 24px;
+  }
+
+  .section-header {
+    padding: 200px 64px;
   }
 }
