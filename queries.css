@@ -1,7 +1,4 @@
 @media only screen and (max-width: 600px) {
-  .section-nav {
-    padding: 0.5rem;
-  }
 }
 
 @media only screen and (min-width: 425px) {
@@ -70,7 +67,7 @@
   }
 
   .section-nav {
-    padding: 16px 24px 8px 24px;
+    padding: 12px 24px 12px 24px;
   }
 
   .section-header {
