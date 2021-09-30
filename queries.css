@@ -19,8 +19,31 @@
 
 @media screen and (max-width: 768px) {
   [data-aos] {
-    transition-duration: 0s !important;
-    transition-delay: 0s !important;
+    pointer-events: auto !important;
+  }
+
+  html:not(.no-js) [data-aos^="fade"][data-aos^="fade"] {
+    opacity: 1 !important;
+  }
+
+  html:not(.no-js) [data-aos="fade-up"] {
+    transform: none !important;
+  }
+
+  html:not(.no-js) [data-aos="fade-right"] {
+    transform: none !important;
+  }
+
+  html:not(.no-js) [data-aos="fade-left"] {
+    transform: none !important;
+  }
+
+  html:not(.no-js) [data-aos^="zoom"][data-aos^="zoom"] {
+    opacity: 1 !important;
+  }
+
+  html:not(.no-js) [data-aos="zoom-in"] {
+    transform: none !important;
   }
 }
 
