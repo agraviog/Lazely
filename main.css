@@ -299,3 +299,20 @@ article {
   background: var(--secondary-bg);
   border-radius: 12px;
 }
+
+/* custom scrollbar */
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: var(--primary-bg);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--primary-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: var(--input-text);
+}
