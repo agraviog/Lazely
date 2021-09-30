@@ -78,6 +78,7 @@ p {
   color: var(--secondary-text);
   font-size: clamp(1rem, 2vw, 1.25rem);
   transition: all 280ms;
+  width: clam(45ch, 50%, 75ch);
 }
 
 h1,
@@ -226,8 +227,8 @@ article {
   width: 85%;
   position: absolute;
   z-index: -1;
-  right: -18%;
-  top: -40%;
+  right: -20%;
+  top: -50%;
   display: none;
 }
 

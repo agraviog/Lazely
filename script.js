@@ -19,3 +19,5 @@ allLinks.forEach(function (link) {
     }
   });
 });
+
+AOS.init();
