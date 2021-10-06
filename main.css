@@ -300,8 +300,6 @@ article {
   border-radius: 12px;
 }
 
-/* custom scrollbar */
-
 ::-webkit-scrollbar-track {
   border-radius: 10px;
   background-color: var(--secondary-bg);
